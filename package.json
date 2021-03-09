@@ -1,0 +1,67 @@
+{
+  "_from": "git+https://git@github.com/cjnqt/socksv5.git#patch-1",
+  "_id": "socksv5@0.0.6",
+  "_inBundle": false,
+  "_location": "/socksv5",
+  "_phantomChildren": {
+    "cli": "0.4.5",
+    "cliff": "0.1.10"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "socksv5@git+https://git@github.com/cjnqt/socksv5.git#patch-1",
+    "name": "socksv5",
+    "escapedName": "socksv5",
+    "rawSpec": "git+https://git@github.com/cjnqt/socksv5.git#patch-1",
+    "saveSpec": "git+https://git@github.com/cjnqt/socksv5.git#patch-1",
+    "fetchSpec": "https://git@github.com/cjnqt/socksv5.git",
+    "gitCommittish": "patch-1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://git@github.com/cjnqt/socksv5.git#cf228faa28c6319501bc7742ed448c6e89cc9587",
+  "_spec": "socksv5@git+https://git@github.com/cjnqt/socksv5.git#patch-1",
+  "_where": "D:\\Peter\\OneDrive\\Documents\\Source\\socks-server",
+  "author": {
+    "name": "Brian White",
+    "email": "mscdex@mscdex.net"
+  },
+  "bugs": {
+    "url": "https://github.com/mscdex/socksv5/issues"
+  },
+  "bundleDependencies": [
+    "ipv6"
+  ],
+  "dependencies": {
+    "ipv6": "*"
+  },
+  "deprecated": false,
+  "description": "SOCKS protocol version 5 server and client implementations for node.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/mscdex/socksv5#readme",
+  "keywords": [
+    "socks",
+    "socks5",
+    "socksv5",
+    "proxy"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/mscdex/socksv5/raw/master/LICENSE"
+    }
+  ],
+  "main": "./index",
+  "name": "socksv5",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mscdex/socksv5.git"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "version": "0.0.6"
+}
